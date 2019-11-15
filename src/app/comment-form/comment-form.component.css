@@ -1,0 +1,55 @@
+.imagebg {
+	background-image: url("src/assets/images/mixing-desk-351478_1920.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	-webkit-filter: blur(3px);
+  filter: blur(3px);
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+.form-container
+{
+	background-color: #fff;
+    box-shadow: 0 16px 24px 2px rgba(0,0,0,0.14), 0 20px 30px 5px rgba(0,0,0,0.12), 0 8px 10px -5px rgba(0,0,0,0.3);
+    border-radius: 8px;	
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+.success,
+.alert-success {
+    position: fixed !important;
+    color: #3c763d !important;
+    background-color: #dff0d8 !important;
+    border-color: #d6e9c6 !important;
+    font-family: Lato !important;
+    font-size: 0.875em !important;
+    left: 300px !important;
+    z-index: 10000 !important;
+    left: 25em !important;
+    top: 51px !important;
+    right: 25em !important;
+    width: auto !important;
+}
+
+.error,
+.alert-error {
+    background-color: #f2dede !important;
+    border-color: #ebccd1 !important;
+    color: #76323f !important;
+    position: fixed !important;
+    font-family: Lato !important;
+    font-size: 0.875em !important;
+    left: 300px !important;
+    z-index: 10000 !important;
+    left: 25em !important;
+    top: 51px !important;
+    right: 25em !important;
+    width: auto !important;
+}
